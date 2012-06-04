@@ -6,14 +6,14 @@ A meaningful use case is the combination with the [global error handling](http:/
 * * *
     
     
-###Notice
+### Notice
 
 The SWC file of as3-airbrake-notifier requires the as3-yaul SWC to parse the stacktrace. [as3-yaul](https://github.com/StephanPartzsch/as3-yaul) can be found on github too.
 
 * * *
     
     
-###Example
+### Example
 
 ####1) Instantiate the notifier.The first two parameters are the most important. 
 The first is the application key, which can be found on the left side of the Airbrake project overview (register first). 
@@ -47,3 +47,8 @@ The other parameters are optional and provide more detailed information about th
 ### More information
 
 See the [notifier API](http://help.airbrake.io/kb/api-2/notifier-api-version-22) for a detailed description of values and how they are used. 
+
+
+### Developer
+
+The 'as3-airbrake-notifier' was developed by [Stephan Partzsch](https://github.com/StephanPartzsch/) and [Peter Höche](https://github.com/PeterHoeche/).
