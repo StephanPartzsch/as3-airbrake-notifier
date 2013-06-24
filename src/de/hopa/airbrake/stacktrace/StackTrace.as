@@ -10,5 +10,15 @@ package de.hopa.airbrake.stacktrace
 		{
 			lines = new  Vector.<StackTraceLine>();
 		}
+		
+		public function toString() : String
+		{
+			var result : String = title + ": " + message;
+			
+			for ( var i : int = 0; i < lines.length; i++ )
+				result += "\n\t at " + lines[i];				
+			
+			return result;
+		}
 	}
 }
